@@ -1,0 +1,19 @@
+canonical_identifier: bkk:krp/KR6n0101/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  markers:
+  - {type: 其他, offset: 0, content: 百法論顯幽鈔, id: KR6n0101_X_000-mulu-1, level: '1'}
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 百法論顯幽鈔
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X48/X48n0799.xml
+    old_id: X48n0799
+hash: sha256:fc2c8835ea9d892de3789b0b557c3a60fb6545b118890afb4200453e3d398de2

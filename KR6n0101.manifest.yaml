@@ -1,0 +1,86 @@
+canonical_identifier: bkk:krp/KR6n0101/v1
+canonical_location: https://kanripo.org/bkk/KR6n0101/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 百法論顯幽鈔
+  identifiers:
+    alt_id:
+    - X48n0799
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X48/X48n0799.xml
+    old_id: X48n0799
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0101_000.yaml, hash: 'sha256:fc2c8835ea9d892de3789b0b557c3a60fb6545b118890afb4200453e3d398de2'}
+  - {seq: 1, filename: KR6n0101_001.yaml, hash: 'sha256:905d238aebc4eae5683199ba305e210a7a58c565e7e816b3fc4640ce2b0647d0'}
+  - {seq: 2, filename: KR6n0101_002.yaml, hash: 'sha256:f317dabf00acf4b020ac785f7d9d65b08e5bef5e6b22fc340ededcbda140cd94'}
+  - {seq: 7, filename: KR6n0101_007.yaml, hash: 'sha256:a64937451b117f4617709c37354426a30b5421ffe8f36d1396e25fe8b38bf320'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6n0101_001.markers.yaml, hash: 'sha256:796a52d9cf404f6643c25e2832d4150e4be2032f72394b8f64579c44e71080ed'}
+  - {seq: 2, role: markers, filename: assets/KR6n0101_002.markers.yaml, hash: 'sha256:0f8e19fb0f087afa898af285f445ef10587ad33b3a1bf36550f108f3f0a15e64'}
+  - {seq: 7, role: markers, filename: assets/KR6n0101_007.markers.yaml, hash: 'sha256:1ce2fdc3c54246cb9fd8e92dac73b4c7f2e6fc84aae7bb34c365ff3258fa70c4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6n0101_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 百法論顯幽鈔
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0101_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 31105
+  label: 百法論顯幽鈔卷第一末。
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6n0101_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 17217
+  label: 百法論顯幽鈔卷二末。
+  type: juan
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0101_X_007-juan-start
+    span:
+    - body
+    - 0
+    - 34897
+  label: 百法論顯幽鈔卷第七末
+  type: juan
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0101_X_007-mulu-1
+    span:
+    - body
+    - 34596
+    - 34596
+  label: No. 799-A
+  type: mulu
+  level: 1
+hash: sha256:4a01b99c9bb4c2a3cabc3de582602243a07730e30ed0dd66c5ef0b68151d1b2b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
